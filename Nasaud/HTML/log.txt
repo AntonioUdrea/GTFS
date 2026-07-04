@@ -1,0 +1,11 @@
+Agencies: SC Local Serv SRL
+Feed Version: 1
+GTFS-to-HTML Version: 2.12.13
+Date Generated: 2026-06-22T11:59:30.005Z
+Timetable Page Count: 4
+Timetable Count: 7
+Calendar Service ID Count: 4
+Route Count: 4
+Trip Count: 75
+Stop Count: 86
+Source: /tmp/99cdef23f4e708dda828e48173515fcb/Nasaud.zip
