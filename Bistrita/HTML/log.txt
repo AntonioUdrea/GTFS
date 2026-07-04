@@ -1,0 +1,14 @@
+Agencies: SC Transmixt SA
+Feed Version: 1
+GTFS-to-HTML Version: 2.12.13
+Date Generated: 2026-06-27T17:19:06.042Z
+Timetable Page Count: 23
+Timetable Count: 83
+Calendar Service ID Count: 43
+Route Count: 23
+Trip Count: 802
+Stop Count: 1383
+Source: /tmp/f16fb7f0656979e2e5f995b61bf90acd/Bistrita.zip
+
+Warnings:
+Timetable TMX_9|0000011|1 (Routes: 9) covers Sat-Sun but some trips (service_id=S) only run on Sat. This may indicate a data issue in the GTFS or that you should generate separate timetables for different days of the week.
