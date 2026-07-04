@@ -5,15 +5,16 @@ body, html {
     overflow-x: hidden;
 }
 
-.top-bar {
+body{
+    background:#f5f7fb;
+    margin:0;
+}
+
+.top-bar{
+    background: linear-gradient(135deg,#2f74f4,#4d94ff);
+    padding: 40px 20px;
     text-align: center;
-    background-color: rgb(47, 116, 244);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    width: 99%;
+    color:white;
 }
 
 .city-container {
@@ -21,19 +22,21 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 35px;
+    padding: 40px 20px;
     height: 70%;
     padding-top: 20px;
 }
 
 .city {
-    background-color: rgb(47, 116, 244);
-    width: 50%;
-    height: 40%;
+    background: white;
+    color: #222;
+    width: min(700px, 90%);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+    transition: .2s ease;
     text-align: center;
-    border-radius: 15px;
-    color: white;
-    padding-bottom: 10px;
 }
 
 .button {
@@ -42,7 +45,7 @@ body, html {
     font-family: 'Courier New', Courier, monospace;
     border: none;
     border-radius: 10px;
-    background-color: black;
+    background: #2f74f4;
     color: white;
     font-size: medium;
     display: flex;
@@ -53,7 +56,7 @@ body, html {
 }
 
 .button:hover {
-    background-color: grey;
+    background: #1d5fd6;
 }
 
 .button-container {
